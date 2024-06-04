@@ -1,5 +1,5 @@
 import React from "react";
-import PastEvents from "./components/PastEvents.jsx";
+import PastEvents from "./components/PastEventsSection/PastEvents.jsx";
 
 const App = () => {
   return <PastEvents />;

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Image from "./Image.jsx";
-import PastData from "../PastData.json";
+import PastData from "../../PastData.json";
 import "./Image.css";
 import PopUp from "./PopUp.jsx";
 import Carousel from "./Carousel.jsx";
-import backgroundImage from "../../public/images/sand-texture.jpg";
+import backgroundImage from "../../../public/images/sand-texture.jpg";
 
 const PastEvents = () => {
   const [isPopUpOpen, setPopUpOpen] = useState(false);
