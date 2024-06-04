@@ -1,8 +1,8 @@
-import "./App.css";
+import React from "react";
+import PastEvents from "./components/PastEvents.jsx";
 
-function App() {
-  return;
-  <></>;
-}
+const App = () => {
+  return <PastEvents />;
+};
 
 export default App;
