@@ -1,9 +1,8 @@
-/* Image.css */
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 1024px;
 }
 
 .image-container {
@@ -12,11 +11,11 @@
 
 .image-wrapper {
   position: relative;
-  margin: 80px;
-  width: 200px;
-  height: 200px;
+  margin: 70px;
+  width: 250px;
+  height: 250px;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 20px;
   display: inline-block;
 }
 
@@ -42,10 +41,13 @@
   transform: translate(-50%, -50%);
   background-color: transparent;
   padding: 8px;
-  border-radius: 5px;
+  border-radius: 20px;
   color: #fe8a17;
   font-weight: bold;
-  font-size: 50px;
+  font-family: "Helvetica";
+  font-stretch: expanded;
+  font-size: 60px;
+  font-weight: 600;
   pointer-events: none;
   transition: opacity 0.3s ease;
 }

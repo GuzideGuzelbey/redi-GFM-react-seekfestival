@@ -20,8 +20,13 @@ const PastEvents = () => {
   return (
     <div
       className="container"
-      style={{ backgroundImage: `url(${backgroundImage})` }}
+      id="pastevents"
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        WebkitBackgroundSize: "contain",
+      }}
     >
+      <h1>PAST EVENTS</h1>
       <div className="image-container">
         {PastData.map((data, index) => (
           <div key={index} onClick={() => openPopUp(data.popimages)}>
