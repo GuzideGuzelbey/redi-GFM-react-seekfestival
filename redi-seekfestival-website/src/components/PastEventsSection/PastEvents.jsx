@@ -1,9 +1,13 @@
 import React, { useState } from "react";
 import Image from "./Image.jsx";
-import PastData from "../PastData.json";
+import PastData from "../../PastData.json";
 import "./Image.css";
 import PopUp from "./PopUp.jsx";
 import Carousel from "./Carousel.jsx";
+<<<<<<< HEAD:redi-seekfestival-website/src/components/PastEvents.jsx
+=======
+import backgroundImage from "../../../public/images/sand-texture.jpg";
+>>>>>>> origin/main:redi-seekfestival-website/src/components/PastEventsSection/PastEvents.jsx
 
 const PastEvents = () => {
   const [isPopUpOpen, setPopUpOpen] = useState(false);
@@ -17,7 +21,10 @@ const PastEvents = () => {
   const closePopUp = () => setPopUpOpen(false);
 
   return (
-    <div className="past-container">
+    <div className="past-container"
+      id="pastevents">
+    
+      <h1>PAST EVENTS</h1>
       <div className="image-container">
         {PastData.map((data, index) => (
           <div key={index} onClick={() => openPopUp(data.popimages)}>
