@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import Image from "./Image.jsx";
+import Title from "../TitleContainer/Title.jsx";
 import PastData from "../../PastData.json";
 import "./Image.css";
 import PopUp from "./PopUp.jsx";
 import Carousel from "./Carousel.jsx";
-<<<<<<< HEAD:redi-seekfestival-website/src/components/PastEvents.jsx
-=======
-import backgroundImage from "../../../public/images/sand-texture.jpg";
->>>>>>> origin/main:redi-seekfestival-website/src/components/PastEventsSection/PastEvents.jsx
+import TitleData from "../../titles.json";
 
 const PastEvents = () => {
   const [isPopUpOpen, setPopUpOpen] = useState(false);
@@ -21,20 +19,22 @@ const PastEvents = () => {
   const closePopUp = () => setPopUpOpen(false);
 
   return (
-    <div className="past-container"
-      id="pastevents">
-    
-      <h1>PAST EVENTS</h1>
-      <div className="image-container">
-        {PastData.map((data, index) => (
-          <div key={index} onClick={() => openPopUp(data.popimages)}>
-            <Image src={data.src} year={data.year} />
-          </div>
-        ))}
+    <div className="outer-container">
+      <div className="title-container">
+        <Title text="PAST EVENTS" className="past-events-title" />
       </div>
-      <PopUp isOpen={isPopUpOpen} onClose={closePopUp}>
-        <Carousel popimages={selectedImages} />
-      </PopUp>
+      <div className="past-container" id="pastevents">
+        <div className="image-container">
+          {PastData.map((data, index) => (
+            <div key={index} onClick={() => openPopUp(data.popimages)}>
+              <Image src={data.src} year={data.year} />
+            </div>
+          ))}
+        </div>
+        <PopUp isOpen={isPopUpOpen} onClose={closePopUp}>
+          <Carousel popimages={selectedImages} />
+        </PopUp>
+      </div>
     </div>
   );
 };
