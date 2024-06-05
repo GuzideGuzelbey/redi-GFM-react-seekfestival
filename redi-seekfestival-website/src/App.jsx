@@ -7,11 +7,11 @@ import ManifestData from "./ManifestData.json";
 const App = () => {
   return (
     <>
-      <section className="manifest-class">
+      <section>
         <Manifest text={ManifestData.manifestdescription} />
       </section>
       <section>
-        <PastEvents className="pastevents-class" />
+        <PastEvents />
       </section>
     </>
   );

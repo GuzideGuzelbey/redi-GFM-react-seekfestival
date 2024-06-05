@@ -1,19 +1,29 @@
-.manifest-container {
-  background-color: #f5e7b9;
-  display: flex;
+.outer-manifest-container {
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
 }
 
 .manifest-wrapper {
+  margin-bottom: 10%;
+}
+
+.manifest-wrapper p {
   text-align: center;
   margin-left: 25%;
   margin-right: 25%;
-  margin-top: 12%;
+  margin-top: 30px;
   color: #333;
+  font-family: "Gloria Hallelujah";
+  font-size: 20px;
+  line-height: 2.5;
 }
 
-p {
-  margin-top: 5%;
-  font-size: 30px;
-  line-height: 2;
-  font-family: "Gloria Hallelujah";
+@media (max-width: 768px) {
+  .manifest-wrapper p {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 15px;
+    line-height: 2.1;
+  }
 }
