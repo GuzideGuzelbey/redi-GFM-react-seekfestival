@@ -8,11 +8,11 @@ import Footer from "./components/FooterSection/footer.jsx";
 const App = () => {
   return (
     <>
-      <section className="manifest-class">
+      <section>
         <Manifest text={ManifestData.manifestdescription} />
       </section>
       <section>
-        <PastEvents className="pastevents-class" />
+        <PastEvents />
       </section>
       <Footer />
     </>
