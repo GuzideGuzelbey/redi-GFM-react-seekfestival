@@ -1,6 +1,6 @@
 [
   {
-    "src": "/images/image1.jpg",
+    "src": "/images/seek2024.jpg",
     "year": "2024",
     "popimages": [
       "/images/7.jpg",
@@ -10,12 +10,12 @@
     ]
   },
   {
-    "src": "/images/image2.jpg",
+    "src": "/images/seek2023.jpg",
     "year": "2023",
     "popimages": ["/images/5.jpg", "/images/6.jpg"]
   },
   {
-    "src": "/images/image3.jpeg",
+    "src": "/images/seek2022.jpeg",
     "year": "2022",
     "popimages": [
       "/images/1.jpg",

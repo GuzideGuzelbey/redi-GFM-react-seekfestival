@@ -4,7 +4,6 @@ import PastData from "../PastData.json";
 import "./Image.css";
 import PopUp from "./PopUp.jsx";
 import Carousel from "./Carousel.jsx";
-import backgroundImage from "../../public/images/sand-texture.jpg";
 
 const PastEvents = () => {
   const [isPopUpOpen, setPopUpOpen] = useState(false);
@@ -18,10 +17,7 @@ const PastEvents = () => {
   const closePopUp = () => setPopUpOpen(false);
 
   return (
-    <div
-      className="container"
-      style={{ backgroundImage: `url(${backgroundImage})` }}
-    >
+    <div className="past-container">
       <div className="image-container">
         {PastData.map((data, index) => (
           <div key={index} onClick={() => openPopUp(data.popimages)}>
