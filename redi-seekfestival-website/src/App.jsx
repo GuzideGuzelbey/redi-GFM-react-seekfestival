@@ -4,6 +4,7 @@ import PastEvents from "./components/PastEventsSection/PastEvents.jsx";
 import Manifest from "./components/ManifestSection/Manifest.jsx";
 import ManifestData from "./ManifestData.json";
 import Banner from "./components/BannerSection/Banner";
+import Footer from "./components/FooterSection/footer.jsx";
 
 const App = () => {
   return (
@@ -11,12 +12,13 @@ const App = () => {
       <section>
         <Banner />
       </section>
-      <section className="manifest-class">
+      <section>
         <Manifest text={ManifestData.manifestdescription} />
       </section>
       <section>
-        <PastEvents className="pastevents-class" />
+        <PastEvents />
       </section>
+      <Footer />
     </>
   );
 };
