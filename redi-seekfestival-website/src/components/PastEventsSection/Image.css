@@ -4,6 +4,8 @@
   align-items: center;
   justify-content: center;
   background-color: #fff4e9;
+  min-height: 100vh;
+  overflow: hidden;
 }
 .past-container {
   display: flex;
@@ -45,8 +47,9 @@
   padding: 8px;
   border-radius: 5px;
   color: #fe8a17;
-  font-weight: bold;
-  font-size: 50px;
+  font-family: "Gochi Hand";
+  font-weight: 600;
+  font-size: 60px;
   pointer-events: none;
   transition: opacity 0.3s ease;
 }
@@ -56,22 +59,19 @@
     align-items: center;
   }
   .image-wrapper {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
   }
   .watermark {
-    font-size: 30px;
+    font-size: 48px;
   }
 }
 @media (max-width: 500px) {
   .image-wrapper {
-    width: 120px;
-    /* Further adjust image width for smaller screens */
-    height: 120px;
-    /* Further adjust image height for smaller screens */
+    width: 150px;
+    height: 150px;
   }
   .watermark {
-    font-size: 20px;
-    /* Decrease font size for even smaller screens */
+    font-size: 40px;
   }
 }
