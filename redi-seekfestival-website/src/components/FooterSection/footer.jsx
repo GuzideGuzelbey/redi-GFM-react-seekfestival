@@ -23,8 +23,9 @@ const Footer = () => {
                 <h3>Social Media</h3>
 
                 <p><a href='https://www.facebook.com/SEEKFestival/' target="_blank" rel='noopener noreferrer'>Facebook</a></p>
-                <p><a href='#'>Terms of Use</a></p>
-            </ul>
+                <p><a href='https://www.instagram.com/seekfestival/?utm_source=ig_web_button_share_sheet'>Instagram</a></p>
+
+            </div>
         </div>
 
     );
