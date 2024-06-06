@@ -6,30 +6,27 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="footer-column">
-                <h3>Column 1</h3>
+                <h3>Contact Info</h3>
                 <ul>
-                    <li>Link 1</li>
-                    <li>Link 2</li>
-                    <li>Link 3</li>
+                    <p>Angelo Alexander Banister:</p>
+                    <p>angelobannister@gmail.com</p>
+                    <p>99009900</p>
+
                 </ul>
             </div>
             <div className="footer-column">
-                <h3>Column 2</h3>
-                <ul>
-                    <li>Link 1</li>
-                    <li>Link 2</li>
-                    <li>Link 3</li>
-                </ul>
+                <p><a href='#'>Privacy Policy</a></p>
+                <p><a href='#'>Terms of Use</a></p>
+
             </div>
             <div className="footer-column">
-                <h3>Column 3</h3>
-                <ul>
-                    <li>Link 1</li>
-                    <li>Link 2</li>
-                    <li>Link 3</li>
-                </ul>
-            </div>
+                <h3>Social Media</h3>
+
+                <p><a href='https://www.facebook.com/SEEKFestival/' target="_blank" rel='noopener noreferrer'>Facebook</a></p>
+                <p><a href='#'>Terms of Use</a></p>
+            </ul>
         </div>
+
     );
 };
 
