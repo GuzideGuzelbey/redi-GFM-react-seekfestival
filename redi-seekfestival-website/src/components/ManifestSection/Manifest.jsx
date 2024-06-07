@@ -15,7 +15,7 @@ const Manifest = ({ text }) => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div>
+      <div className="manifest-title-container">
         <Title text="MANIFEST" className="manifest-title" />
       </div>
       <div className="manifest-container" id="manifest-id">

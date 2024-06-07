@@ -1,0 +1,29 @@
+[
+  {
+    "photo": "images/angelo.jpg",
+    "name": "Angelo Bannister",
+    "role": "Lead Designer, Artist, Sound-Engineer",
+    "socialMedia": {
+      "instagram": "https://www.instagram.com/seekfestival/",
+      "facebook": "https://www.facebook.com/angelo.bannister.3/"
+    }
+  },
+  {
+    "photo": "images/jacob.jpg",
+    "name": "Jacob Spohr",
+    "role": "Lead Builder, Carpenter, Craftsman",
+    "socialMedia": {
+      "instagram": "https://www.instagram.com/jacobstardust/",
+      "facebook": "https://www.facebook.com/jacob.spohr.7/?locale=da_DK"
+    }
+  },
+  {
+    "photo": "images/benjamin.jpg",
+    "name": "Benjamin Thomsen",
+    "role": "Lead Economist, Marketing, Visual Designer",
+    "socialMedia": {
+      "instagram": "https://www.instagram.com/b_thomsen94/?hl=en",
+      "facebook": "https://www.facebook.com/SEEKFestival"
+    }
+  }
+]

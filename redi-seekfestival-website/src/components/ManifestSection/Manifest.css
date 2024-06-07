@@ -5,6 +5,7 @@
 
 .manifest-wrapper {
   margin-bottom: 10%;
+  margin-top: 5%;
 }
 
 .manifest-wrapper p {
@@ -17,12 +18,18 @@
   font-size: 20px;
   line-height: 2.5;
 }
+.manifest-title-container {
+  margin-top: 5%;
+}
 
 @media (max-width: 768px) {
   .manifest-wrapper p {
     margin-left: 20%;
     margin-right: 20%;
-    font-size: 15px;
-    line-height: 2.1;
+    font-size: 16px;
+    line-height: 2.4;
+  }
+  .manifest-title-container {
+    margin-top: 5%;
   }
 }
