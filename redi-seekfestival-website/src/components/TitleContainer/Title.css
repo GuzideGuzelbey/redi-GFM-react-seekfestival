@@ -14,3 +14,12 @@
     padding: 0;
     color: #1DA2D8;
 }
+
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.1rem;
+    }
+
+
+}
