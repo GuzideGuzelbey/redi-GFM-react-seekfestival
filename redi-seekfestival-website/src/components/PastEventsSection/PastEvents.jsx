@@ -5,7 +5,7 @@ import PastData from "../../PastData.json";
 import "./Image.css";
 import PopUp from "./PopUp.jsx";
 import Carousel from "./Carousel.jsx";
-import TitleData from "../../titles.json";
+import titles from "../../titles.json";
 
 const PastEvents = () => {
   const [isPopUpOpen, setPopUpOpen] = useState(false);
@@ -18,10 +18,12 @@ const PastEvents = () => {
 
   const closePopUp = () => setPopUpOpen(false);
 
+  const SectionTitles = titles[0];
+
   return (
     <div className="outer-container">
       <div className="title-container">
-        <Title text="PAST EVENTS" className="past-events-title" />
+        <Title text={SectionTitles.pastEvents} className="past-events-title" />
       </div>
       <div className="past-container" id="pastevents">
         <div className="image-container">

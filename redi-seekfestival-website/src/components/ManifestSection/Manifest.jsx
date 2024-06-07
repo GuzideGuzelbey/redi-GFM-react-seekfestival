@@ -1,11 +1,12 @@
 import React from "react";
 import "./Manifest.css";
 import Title from "../TitleContainer/Title.jsx";
-import TitleData from "../../titles.json";
+import titles from "../../titles.json";
 import backgroundImage from "../../../public/images/paper.jpg"; /*manifest section background image path and name
  should be changed from here > "" */
 
 const Manifest = ({ text }) => {
+  const SectionTitles = titles[0];
   return (
     <div
       className="outer-manifest-container"
@@ -16,7 +17,7 @@ const Manifest = ({ text }) => {
       }}
     >
       <div className="manifest-title-container">
-        <Title text="MANIFEST" className="manifest-title" />
+        <Title text={SectionTitles.manifest} className="manifest-title" />
       </div>
       <div className="manifest-container" id="manifest-id">
         <div
