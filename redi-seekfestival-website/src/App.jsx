@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import PastEvents from "./components/PastEventsSection/PastEvents.jsx";
+import About from "./components/AboutSection/About";
 import Manifest from "./components/ManifestSection/Manifest.jsx";
 import ManifestData from "./ManifestData.json";
 import Team from "./components/TeamSection/Team.jsx";
@@ -18,6 +19,9 @@ const App = () => {
       </section>
       <section>
         <PastEvents />
+      </section>
+      <section id="about">
+        <About />
       </section>
       <section>
         <Team />
