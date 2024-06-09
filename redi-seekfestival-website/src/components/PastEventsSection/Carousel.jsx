@@ -1,5 +1,3 @@
-// find a react library for image gallery or carousel
-
 import React from "react";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";

@@ -22,7 +22,7 @@
   margin-top: 5%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .manifest-wrapper p {
     margin-left: 20%;
     margin-right: 20%;
