@@ -3,21 +3,21 @@
     "year": "2022",
     "title": "Vores ydmyge begyndelse",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    "image": "/images/image-about1.png",
+    "image": "images/image-about1.png",
     "reverse": false
   },
   {
     "year": "10-11 JUNI 2022",
     "title": "Vi afholder vores første festival",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    "image": "/images/image-about2.png",
+    "image": "images/image-about2.png",
     "reverse": true
   },
   {
     "year": "2022-2023",
     "title": "The Aftermath Fase to; vi skal etablere os",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-    "image": "/images/image-about3.png",
+    "image": "images/image-about3.png",
     "reverse": false
   }
 ]
