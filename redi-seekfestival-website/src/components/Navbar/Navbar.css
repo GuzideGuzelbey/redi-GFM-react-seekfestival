@@ -45,6 +45,7 @@
 .navbar-item a:hover {
   color: #ffc463;
   border-radius: 4px;
+  cursor: grab;
 }
 
 .hamburger {
@@ -53,7 +54,7 @@
   background: none;
   border: none;
   color: white;
-  cursor: pointer;
+  cursor: grab;
 }
 
 @media (max-width: 820px) {
