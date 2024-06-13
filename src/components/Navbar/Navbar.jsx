@@ -12,7 +12,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img src="./images/seek-logo.jpg" alt="Logo" />
+        <a href="#banner">
+          <img src="./images/seek-logo.jpg" alt="Logo" />
+        </a>
       </div>
       <button className="hamburger" onClick={toggleMobileMenu}>
         &#9776;

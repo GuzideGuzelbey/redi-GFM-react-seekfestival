@@ -14,7 +14,7 @@ const App = () => {
       <header>
         <Navbar />
       </header>
-      <section>
+      <section id="banner">
         <Banner />
       </section>
       <section id="manifest">
